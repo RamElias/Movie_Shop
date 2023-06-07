@@ -1,0 +1,97 @@
+.search-history {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.search-history li {
+    cursor: pointer;
+    padding: 5px;
+    border: 3px transparent ;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.search-history li:hover {
+    background-color: #f0f0f0;
+}
+.clear-history-btn {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.clear-history-btn:hover {
+    background-color: #d32f2f;
+}
+
+.delete-item-btn {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 2px 4px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    margin-right: 10px;
+}
+
+.delete-item-btn:hover {
+    background-color: #d32f2f;
+}
+
+
+@media (min-width: 576px) {
+    .custom-modal{
+    max-width: 500px;
+    margin: 1.75rem auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .custom-modal {
+        max-width: 600px;
+    }
+}
+
+@media (min-width: 992px) {
+    .custom-modal {
+        max-width: 800px;
+    }
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-image {
+    margin-bottom: 20px;
+}
+
+.modal-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.modal-price {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.modal-add-to-cart {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+

@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"hac"},{"l":"hac.repo"}];updateSearchResults();
